@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Razaann Portfolio</title>
+  <!-- <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet"> -->
+  <link href="https://fonts.cdnfonts.com/css/bai-jamjuree" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header"></div>
+
+  <!-- Profile Section -->
+  <div class="profile">
+    <img src="img/PFP.png" alt="Profile" />
+    <h1>Razaann</h1>
+    <p>Graphic Design & Game Development</p>
+    <p class="description">
+      Computer Science student that passionate about programming, game development, 3D modeling, graphic design, and many creative media
+    </p>
+    <div class="socials">
+      <a href="https://github.com/Razaann" class="fa fa-github"></a>
+      <a href="https://www.instagram.com/ranprojectt_/" class="fa fa-instagram"></a>
+      <a href="https://x.com/Ranprojectt/status/1930152520808313290" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/in/mrazaanarjuna/" class="fa fa-linkedin"></a>
+    </div>
+  </div>
+
+  <div class="filters">
+    <button class="active" onclick="filterProjects('all')">All</button>
+    <button onclick="filterProjects('graphic')">Graphic Design</button>
+      <button onclick="filterProjects('code')">Programming</button>
+    <button onclick="filterProjects('model')">3D Model</button>
+    <button onclick="filterProjects('game')">Game</button>
+  </div>
+
+  <!-- Add Project -->
+  <div class="projects">
+
+    <div class="project game">
+      <a href="https://razaann.github.io/Flappy-Bat/">
+        <img src="https://i.imghippo.com/files/jFC4718Kv.png" alt="" border="0">
+        <div class="project-title">Flappy Bat</div>
+      </a>
+    </div>
+
+    <div class="project graphic">
+      <a href="https://x.com/Ranprojectt/status/1930152962120396936">
+        <img src="https://i.imghippo.com/files/zUa6107blA.png" alt="" />
+        <div class="project-title">Gojo Satoru</div>
+      </a>
+    </div>
+
+    <div class="project model">
+      <a href="">
+        <img src="https://i.imghippo.com/files/hyW2869RmQ.png" alt="" />
+        <div class="project-title">3D Model Character</div>
+      </a>
+    </div>
+
+    <div class="project graphic">
+      <a href="https://www.instagram.com/p/C4ukczDyClP/">
+        <img src="https://i.imghippo.com/files/BRnv3597tQ.png" alt="" />
+        <div class="project-title">VTuber Logo</div>
+      </a>
+    </div>
+
+    <div class="project graphic">
+      <a href="https://www.instagram.com/p/C1C2NvCSdOI/">
+        <img src="https://i.imghippo.com/files/mpls9450dWc.png" alt="" />
+        <div class="project-title">Bill Chiper</div>
+      </a>
+    </div>
+
+    <div class="project game">
+      <a href="https://ran11.itch.io/your-average-platformer-game">
+        <img src="https://i.imghippo.com/files/rgt4880MsY.png" alt="" />
+        <div class="project-title">Your Average Platfrom Game</div>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
